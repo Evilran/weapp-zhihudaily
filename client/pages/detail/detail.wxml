@@ -1,0 +1,12 @@
+<!--detail.wxml-->
+<view class="content">
+  <import src="../../wxParse/wxParse.wxml"/>
+<view class='page'>
+  <!-- <view class='page__title dk-title'>显示html格式</view> -->
+  <view class="page__bd page__bd_spacing">
+    <view style='height:{{dkheight}};width:90%;margin:0 auto;'>
+      <template is="wxParse" data="{{wxParseData:dkcontent.nodes}}"/>
+    </view>
+  </view>
+</view>
+</view>

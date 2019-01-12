@@ -38,6 +38,8 @@ server 包含 PHP 文件处理知乎 api，client 包含小程序端
 阅读功能的实现引用了富文本解析自定义组件 [**wxParse**](https://github.com/icindy/wxParse)  
 
 [知乎日报网页版](https://yian.me/zhihu/)   
+[知乎日报](http://daily.zhihu.com/)  
+
 
 
 
